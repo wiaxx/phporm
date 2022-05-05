@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(255, 208, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+header>h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: burlywood;
+    text-shadow: 1px 0.5px 3px white;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.car-input,
+.car-list {
+    width: 48%;
+    background-color: burlywood;
+    box-shadow: -2px 2px 5px lightgray;
+    padding: 15px;
+}
+
+.car-input > h2, .car-list > h2 {
+    color: azure;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+a, li {
+    text-decoration: none;
+    color: azure;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.car-input > form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    color: white;
+    font-size: 1.2rem;
+}
+
+form > input {
+    font-size: 1.2rem;
+    padding: 2px;
+    border-radius: 2px;
+    margin: 2px;
+    border: none;
+    background-color: white;
+}
+
+.car {
+    width: 80vw;
+    border: 1px solid rgb(255, 208, 127);
+    padding: 14px;
+}
+
+.car > form > input {
+    background-color: rgb(255, 208, 127);
+    padding: 4px;
+    border-radius: 5px;
+    color: red;
+}
+
+#savechanges > input {
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: green
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 216, 148);
+    box-shadow: -2px -2px 3px lightgray;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+footer > h4 {
+    color: white;
+}
